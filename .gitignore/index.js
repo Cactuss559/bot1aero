@@ -16,7 +16,7 @@ bot.on('ready', () => {
     console.log("Bot Prêt !");
 });
 
-bot.login(process.env.TOKEN)
+bot.login("NDQwOTI5MzUzNDUxMzA3MDA4.DgKfdg.1a7IpOLuX7FYek1ty6p9tHa7du4")
 
 bot.on('message', message => {
     if (message.content.startsWith("test")){
